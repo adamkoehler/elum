@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Rectangle_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="1411.167px" height="594.938px" viewBox="0 -8.646 1411.167 594.938"
+	 enable-background="new 0 -8.646 1411.167 594.938" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="474.4165" y1="616.0581" x2="474.4165" y2="38.9424" gradientTransform="matrix(1 0 0 1 232 -44)">
+	<stop  offset="0" style="stop-color:#085DAD"/>
+	<stop  offset="0.2156" style="stop-color:#085DAD;stop-opacity:0.9977"/>
+	<stop  offset="0.25" style="stop-color:#085DAD;stop-opacity:0.9973"/>
+	<stop  offset="0.75" style="stop-color:#68B5FD;stop-opacity:0.6"/>
+	<stop  offset="0.9683" style="stop-color:#68B5FD;stop-opacity:0.4253"/>
+	<stop  offset="1" style="stop-color:#68B5FD;stop-opacity:0.4"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" stroke="#FFFFFF" stroke-width="7" stroke-miterlimit="10" d="M-6.667,126.752
+	c0,0,235.277-131.81,717.239-131.81c417.951,0,708.928,131.81,708.928,131.81v445.306c0,0-217.541-136.561-710.115-136.561
+	c-492.571,0-716.051,136.561-716.051,136.561V126.752z"/>
+</svg>
