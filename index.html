@@ -34,27 +34,27 @@
 <header class="header"> 
     <div class="container clearfix">
         <div class="logo">
-        <a class="section-scroll" href="#top">
-        <img src="images/logo.png" alt="Elum" title="Elum">
-        </a>
-    </div>
+            <a class="section-scroll" href="index.html">
+                <img src="images/logo.png" alt="Elum" title="Elum">
+            </a>
+        </div>
         <div class="header_right"> 
-        <div class="mainmenu">
-            <ul class="slimmenu">
-                    <li><a href="#1">about Us</a></li>
-                    <li><a href="#1">products & Services</a></li>
-                    <li><a href="#1">applications</a>
+            <div class="mainmenu">
+                <ul class="slimmenu">
+                    <li><a href="about.html">about Us</a></li>
+                    <li><a href="product_services.html">products &amp; Services</a></li>
+                    <li><a href="applications.html">applications</a>
                         <ul class="submenu">
                             <li><a href="#1"> applications 1 </a></li>
                             <li><a href="#1"> applications 2 </a></li>
                             <li><a href="#1"> applications 3 </a></li>
                         </ul>
                     </li>
-                    <li><a href="#1">blog/news</a></li>
-                    <li><a href="#1">contact us</a></li>
+                    <li><a href="blog_news.html">blog/news</a></li>
+                    <li><a href="contact.html">contact us</a></li>
                     <li class="configure"><a href="#1">configure</a></li>
                 </ul>
-        </div>
+            </div>
         <div class="language">
             <a href="#1"><img src="images/es.png" alt=""></a>
             <a class="active" href="#1"><img src="images/en.png" alt=""></a>
@@ -355,28 +355,6 @@
            disableParallax: /iPad|iPhone|iPod|Android/,
            disableVideo: /iPad|iPhone|iPod|Android/
        }); 
-    </script>
-    <script>
-        $(document).ready(function() {
-            // Gets the video src from the data-src on each button
-            var $videoSrc;  
-            $('.video-btn').click(function() {
-                $videoSrc = $(this).data( "src" );
-            });
-            console.log($videoSrc);
-            // when the modal is opened autoplay it  
-            $('#myModal').on('shown.bs.modal', function (e) {
-            // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-            $("#video").attr('src',$videoSrc + "?rel=0&amp;showinfo=0&amp;modestbranding=1&amp;autoplay=1" ); 
-            })
-            // stop playing the youtube video when I close the modal
-            $('#myModal').on('hide.bs.modal', function (e) {
-                // a poor man's stop video
-                $("#video").attr('src',$videoSrc); 
-            }) 
-            // document ready  
-            });
-
     </script>
     <script src="js/custom.js"></script>
 </body>

@@ -168,7 +168,7 @@ ul.slimmenu li.ipad a{
     background-color: #716951;
     text-transform: capitalize;
     }
-ul.slimmenu li.current > a {color: white;}
+ul.slimmenu li.current > a {color: #8cc739;;}
 ul.slimmenu li:hover a{
     text-decoration: none;
     color: #8cc739;
